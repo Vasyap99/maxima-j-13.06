@@ -1,5 +1,5 @@
 
-
+//
 public class Admin extends Worker{
     Admin(String name, String lastName){
         super(name,lastName,"Admin");
