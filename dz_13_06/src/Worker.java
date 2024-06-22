@@ -1,9 +1,9 @@
 
 
 public class Worker{
-    private String name; // ���
-    private String lastName; // �������
-    private String profession; // ���������
+    private final String name; // ���
+    private final String lastName; // �������
+    private final String profession; // ���������
     Worker(String name, String lastName, String profession){
         this.name=name;
         this.lastName=lastName;
@@ -17,5 +17,17 @@ public class Worker{
         System.out.println(String.format("Имя работника, уходящего в отпуск: %s %s",name,lastName));
         System.out.println(String.format("Профессия: %s",profession));
         System.out.println(String.format("Количество дней отпуска: %d",days));
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getProfession() {
+        return profession;
     }
 }
