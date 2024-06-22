@@ -13,9 +13,6 @@ public class Work{
         }
     }
     public void showVacations(){
-        /*for(int i=0;i<workers.length;i++){
-            workers[i].goToVacation(12);
-        }*/
         for(var worker:workers){
             System.out.println("**********************");
             worker.goToVacation(12);

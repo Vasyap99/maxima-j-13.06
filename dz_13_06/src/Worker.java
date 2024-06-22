@@ -9,6 +9,9 @@ public class Worker{
         this.lastName=lastName;
         this.profession=profession;
     }
+    public String toString(){
+        return String.format("<worker: %s %s, %s>",getLastName(),getName(),getProfession());
+    }
     public void goToWork(){
         System.out.println(String.format("Имя работника: %s %s",name,lastName));
         System.out.println(String.format("Профессия: %s",profession));
