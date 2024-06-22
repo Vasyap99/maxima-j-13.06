@@ -10,6 +10,6 @@ public class Devops extends Worker{
     }
     public void goToVacation(int days){
         super.goToVacation(days);
-        System.out.println("ŒÚ‰˚ı 4");
+        System.out.println("–û—Ç–¥—ã—Ö 4");
     }
 }

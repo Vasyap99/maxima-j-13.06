@@ -10,6 +10,6 @@ public class Tester extends Worker{
     }
     public void goToVacation(int days){
         super.goToVacation(days);
-        System.out.println("Îòäûõ 2");
+        System.out.println("ĞÑ‚Ğ´Ñ‹Ñ… 2");
     }
 }

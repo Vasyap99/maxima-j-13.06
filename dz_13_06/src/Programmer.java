@@ -10,6 +10,6 @@ public class Programmer extends Worker{
     }
     public void goToVacation(int days){
         super.goToVacation(days);
-        System.out.println("ŒÚ‰˚ı 1");
+        System.out.println("–û—Ç–¥—ã—Ö 1");
     }
 }

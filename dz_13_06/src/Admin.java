@@ -6,10 +6,10 @@ public class Admin extends Worker{
     }
     public void goToWork(){
         super.goToWork();
-        System.out.println("����������� ����������");
+        System.out.println("Настраивает компьютеры");
     }
     public void goToVacation(int days){
         super.goToVacation(days);
-        System.out.println("����� 3");
+        System.out.println("Отдых 3");
     }
 }
