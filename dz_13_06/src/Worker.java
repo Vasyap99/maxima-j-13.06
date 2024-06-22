@@ -2,7 +2,7 @@
 
 public class Worker extends Human{
     private final String profession; // ���������
-    Worker(String name, String lastName, String profession){
+    public Worker(String name, String lastName, String profession){
         super(name,lastName);
         this.profession=profession;
     }

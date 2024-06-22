@@ -1,7 +1,7 @@
 
 
 public class Devops extends Worker{
-    Devops(String name, String lastName){
+    public Devops(String name, String lastName){
         super(name,lastName,"DevOps");
     }
     @Override

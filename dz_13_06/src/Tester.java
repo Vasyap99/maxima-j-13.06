@@ -1,7 +1,7 @@
 
 
 public class Tester extends Worker{
-    Tester(String name, String lastName){
+    public Tester(String name, String lastName){
         super(name,lastName,"Tester");
     }
     @Override
